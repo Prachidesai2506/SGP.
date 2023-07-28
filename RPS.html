@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RPS.css">
+    <script src="RPS.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>THE ROCK PAPER AND SCISSORS</h1>
+    </header>
+    <main>
+        <h2>PLEASE SELECT ANY ONE </h2>
+        <section class="images">
+        <div class="column">
+            <div class="row"><button class="selection" data-selection="1" onclick="check()"><img src="stone.png" alt=""></button></div>
+            <div class="row"><button class="selection" data-selection="2" onclick="check()"><img src="paper.png" alt=""></button></div>
+            <div class="row"><button class="selection" data-selection="3" onclick="check()"><img src="scissors.png" alt=""></button></div>
+        </div>
+    </section>
+    <section class="all">
+        <div class="Score">
+            <div class="score" id="S1">
+                <p><span>User's Score : </span></p>
+                <span><p id="User"></p></span>
+            </div>
+            <div class="score" id="S2">
+                <p><span>Computer's Score : </span></p>
+                <span><p id="computer"></p></span>
+            </div>
+        </div>
+    </section>
+        <section>
+            <div id="class">
+                <span><p id="result"></p></span>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>

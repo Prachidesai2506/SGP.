@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffc93669;
+    border-bottom-left-radius: 4.5rem;
+    border-bottom-right-radius: 4.5rem;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translate(-28px, 32px);
+
+}
+h1{
+  padding: 10px;
+  margin-bottom: 50px;
+  align-content: center;
+  text-align: center;
+  font-size: xx-large;
+  background-color:rgb(18 39 68);
+  font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+  color: aliceblue;
+}
+h2{
+   
+    color: black;
+    text-align: center;
+    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+}
+.row{
+    margin-left: 159px;
+}
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    transition: 100ms;
+}    
+button:active{
+    transform: scale(1.3);
+    
+}
+
+img{
+    margin-left: -119px;
+    
+
+}
+p
+{
+    padding: 20px;
+    background-color: #225762;
+    margin-top: 41px;
+    margin-bottom: 55px;
+    color: aliceblue;
+    text-align: center;
+    text-size-adjust: 7;  
+    border: 0.5rem ridge #225762;
+    border-radius: 4.5rem
+}
+#abc{
+    color: aliceblue;
+    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+}    
+.score {
+  padding: 166px;
+ margin-top: 1vh;
+
+}
+.Score{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translate(-28px, 32px);
+}
+span{
+    font-weight: 900;
+    font-family:Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; ;
+    font-size: xxx-large;
+    background-color: #225762;
+    
+}
